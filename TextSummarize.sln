@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextRank", "TextRank\TextRa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextSummarize", "TextSummarize\TextSummarize.csproj", "{94C43C23-7D66-4657-A67F-34335223B190}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication1\WebApplication.csproj", "{2E65E921-0534-4743-AA79-F820B55B41F7}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{94C43C23-7D66-4657-A67F-34335223B190}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94C43C23-7D66-4657-A67F-34335223B190}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94C43C23-7D66-4657-A67F-34335223B190}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E65E921-0534-4743-AA79-F820B55B41F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E65E921-0534-4743-AA79-F820B55B41F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E65E921-0534-4743-AA79-F820B55B41F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E65E921-0534-4743-AA79-F820B55B41F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

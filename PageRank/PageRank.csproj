@@ -40,8 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="DeepCloneHelper.cs" />
     <Compile Include="Graph\DirectedGraph.cs" />
     <Compile Include="Graph\Graph.cs" />
     <Compile Include="Graph\GraphNode.cs" />
@@ -52,9 +50,10 @@
     <Compile Include="Graph\Node.cs" />
     <Compile Include="Graph\NodeSet.cs" />
     <Compile Include="Graph\UnDirectedGraph.cs" />
+    <Compile Include="PageRank.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rank\PageRank.cs" />
-    <Compile Include="Utils.cs" />
+    <Compile Include="Utils\DeepCloneHelper.cs" />
+    <Compile Include="Utils\Utils.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
