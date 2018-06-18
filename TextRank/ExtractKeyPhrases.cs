@@ -12,7 +12,7 @@ namespace TextRank
 
             var summary = ExtractSummary.Extract.ExtractParagraphSummary(sentence, wordLength);
 
-            return new Tuple<string, List<string>>(summary, keyWords);
+            return new Tuple<string, List<string>>(summary, keyWords); 
         }
 
 
