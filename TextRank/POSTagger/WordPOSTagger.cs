@@ -11,7 +11,7 @@ namespace TextRank.POSTagger
     {
         private static readonly EnglishRuleBasedTokenizer Tokenizer = new EnglishRuleBasedTokenizer(false);
 
-        private static readonly string ModelPath = AppDomain.CurrentDomain.BaseDirectory + "/Resources/Models/";
+        private static readonly string ModelPath = AppDomain.CurrentDomain.BaseDirectory + "/../../Resources/Models/";
 
         private static readonly IList<string> RequiredTags = new List<string> { "NN", "JJ", "NNP", "NNS", "NNPS" };
 
