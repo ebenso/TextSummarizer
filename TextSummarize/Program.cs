@@ -12,9 +12,7 @@ namespace TextSummarize
                 .WriteTo.File("log.txt", rollingInterval: RollingInterval.Day)
                 .WriteTo.Console()
                 .CreateLogger();
-
-            var extractKeyPhrases = new ExtractKeyPhrases();
-            
+                        
             var sentence =
                 "LINCOLNSHIRE, IL With next-generation video game systems such as the Xbox One and the Playstation 4 hitting stores later this month, the console wars got even hotter today as electronics manufacturer Zenith announced the release of its own console, the Gamespace Pro, which arrives in stores Nov. 19. “With its sleek silver-and-gray box, double-analog-stick controllers, ability to play CDs, and starting price of $374.99, the Gamespace Pro is our way of saying, ‘Move over, Sony and Microsoft, Zenith is now officially a player in the console game,’” said Zenith CEO Michael Ahn at a Gamespace Pro press event, showcasing the system’s launch titles MoonChaser: Radiation, Cris Collinsworth’s Pigskin 2013, and survival-horror thriller InZomnia. “With over nine launch titles, 3D graphics, and the ability to log on to the internet using our Z-Connect technology, Zenith is finally poised to make some big waves in the video game world.” According to Zenith representatives, over 650 units have already been preordered.";
             var sentence1 =
@@ -28,7 +26,7 @@ namespace TextSummarize
                 The deal, which valued the Bengaluru-based company at USD 20.8 billion, is believed to be part of Walmart's strategy to strengthen presence in the Indian market and also compete head-on with global rival, Amazon.
                 Amazon is also a rival to Flipkart and the two are locked in an intense battle for leadership in the booming Indian e-commerce market that is forecast to touch USD 200 billion in the next few years.";
 
-            var phrases = extractKeyPhrases.Extract(sentence1);
+            var phrases = sentence1.KeyPhrases();
 
             Log.Information("Extracted Phrases : {Phrases}", phrases.Item1);
             Log.Information(sentence1);
