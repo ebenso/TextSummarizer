@@ -46,6 +46,7 @@ namespace TextRank
                         _editDistanceArray[i - 1, j - 1] + cost);
                 }
             }
+
             // Step 7
             return _editDistanceArray[firstStringLength, secondStringLength];
         }
